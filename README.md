@@ -12,7 +12,7 @@
         int id PK
         timestamp date
         bigInt amount
-        string status
+        string status_trx_id FK
         int sender_id FK
         int receiver_id FK
         int category_id FK
